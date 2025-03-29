@@ -1,14 +1,16 @@
-# 
+# GTK4 C++ Examples
 
-After finishing the below tasks, run the following commands to see if your code
-is correct.
+The language bindings for C++ are available via `gtkmm`.
+Excellent starter documentation is available in
+[Programming with gtkmm 4][gtkmm-doc]
+
+To build the examples contained in this repository, run
 
 ```shell
 mkdir build && cd build
 cmake ..
 make -j4
-make test
 ```
 
-As an alternative to `make test` (or `ctest`) you can run the individual
-`test_*` executables.
+
+[gtkmm-doc]: https://gnome.pages.gitlab.gnome.org/gtkmm-documentation/index.html
